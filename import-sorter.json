@@ -1,5 +1,5 @@
 {
-  "generalConfiguration.sortOnBeforeSave": true,
+  "generalConfiguration.sortOnBeforeSave": true, //
   "importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimitExceptIfOnlyOne",
   "importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 80,
   "importStringConfiguration.tabSize": 2,
