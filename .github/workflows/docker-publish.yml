@@ -69,7 +69,7 @@ jobs:
         run: |
           echo "Repository: ${{ github.repository }}"
           echo "Actor: ${{ github.actor }}"
-          curl -v -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          curl -v -H "Authorization: token ${{ secrets.PAT }}" \
             https://ghcr.io/v2/
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action
