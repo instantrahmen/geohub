@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest",
+    "docker:build": "docker build -t ghcr.io/instantrahmen/geohub:main .",
+    "docker:push": "docker push ghcr.io/instantrahmen/geohub:main",
+    "docker:build-push": "yarn docker:build && yarn docker:push"
   },
   "dependencies": {
     "@deck.gl/core": "^8.9.22",
